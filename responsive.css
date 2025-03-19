@@ -21,6 +21,9 @@
 .fa-search {
     display: none;
 }
+.fa-microphone {
+    display: none;
+}
 .video-card img {
     width: 260px;
 }
