@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="responsive.css">
+  </head>
+  <body>
+    <div class="container">
+      <section class="vertical info-container">
+            <div class="logo-container">
+                <li class=""><i class="fas fa-bars"></i></li>
+                <div id="logo"><img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/YouTube_Logo_2017.svg" alt="YouTube Logo" width="120">
+                </div>
+            </div>
+            <div class="vertical-items">
+            <div class="vertical-items-container-one">
+                <li><i class="fas fa-home"></i> Home</li>
+                <li><i class="fas fa-play-circle"></i> Shorts</li>
+                <li><i class="fas fa-tv"></i> Subscription</li>
+            </div>
+            <hr>
+            <div class="vertical-items-container-two">
+                <li><i class="fas fa-history"></i> History</li>
+                <li><i class="fas fa-list"></i> Playlist</li>
+                <li><i class="fas fa-video"></i> Your videos</li>
+                <li><i class="fas fa-clock"></i> Watch later</li>
+                <li><i class="fas fa-thumbs-up"></i> Liked videos</li>
+            </div>
+            <hr>
+        </div>
+      </section>
+
+      <div class="horizontal">
+
+        <section class="nav-container">
+            <div class="nav-bar">
+               <div class="left-nav-items">
+                  <div class="search-container">
+                    <input id="search-area" placeholder="Search">
+                    <button id="search-btn" class="fas fa-search"></button>  
+                    <!-- <button id="search-btn"><img  src="material/search.png"></button> -->
+                  </div>
+                  <button class="fas fa-microphone"></button>
+               </div>
+               <div class="right-nav-items">
+                <button id="create-btn">+Create</button>
+                <i class="fas fa-bell"></i>   
+                <button id="user-profile">User</button>
+               </div>
+            </div>
+            <div class="content-options">
+                <button class="options-btn">All</button>
+                <button class="options-btn">Web Development</button>
+                <button class="options-btn">Music</button>
+                <button class="options-btn">Javascript</button>
+                <button class="options-btn">Camping</button>
+                <button class="options-btn">Entertainment</button>
+                <button class="options-btn">Podcast</button>
+                <button class="options-btn">New to you</button>
+                <button class="options-btn">Watched</button>
+            </div>
+        </section>
+
+        <section class="videos-container">
+                <div id="video-player"></div>
+        </section>
+
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* basic structure */
+.container{
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    /* position: relative; */
+}
+
+.horizontal {
+    width: 100%;
+    /* height: 100vh; */
+    display: flex;
+    flex-direction: column;
+}
+.nav-container{
+    width: 100%;
+    height: 130px;
+    background-color: white;
+    padding-bottom: 10px;
+}
+
+
+/* nav */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+   /* align-items: center; */
+}
+.left-nav-items{
+    display: flex;
+    align-items: center;
+}
+
+#search-area{
+    width: 40vw;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px inset rgb(222, 135, 208);
+}
+.fa-search{
+    background: rgba(255, 255, 255, 0.568);
+    padding: 10px;
+    border-radius: 15px 15px 0;
+    /* font-weight: 1000; */
+}
+.fa-microphone{
+    background: rgba(255, 255, 255, 0.089);
+    padding: 10px;
+    border-radius: 15px ;
+    margin-left: 30px;
+}
+
+#create-btn{
+    background: rgba(255, 255, 255, 0.568);
+    padding: 10px;
+    border-radius: 15px;
+    border: none;
+}
+.fa-bell{
+    background: rgba(255, 255, 255, 0.089);
+    padding: 10px;
+    border-radius: 15px ;
+    margin: 5px;
+}
+#user-profile{
+    background-color: rgb(245, 245, 248);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px solid rgb(134, 139, 218);
+    cursor: pointer;
+    color:  rgb(134, 139, 218);
+    /* padding: 5px; */
+}
+
+.content-options{
+    margin: 15px;
+}
+.options-btn{
+    background: rgb(54, 50, 50);
+    padding: 10px 14px;
+    border-radius: 15px ;
+    margin: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.options-btn:hover{
+    color:rgb(54, 50, 50);
+    background-color: white;
+    border: 2px solid rgb(54, 50, 50);
+}
+
+/* vertical info-container ..... */
+
+.vertical{
+    width: 27%;
+    height: 100vh;
+    padding: 15px;
+}
+.vertical-items li{
+    padding: 10px;
+    cursor: pointer;
+}
+.vertical-items .fas{
+    margin: 10px;
+}
+.logo-container{
+    display: flex;
+    justify-content: space-around;
+}
+#logo img{
+    width: 100px;
+}
+li{
+    list-style: none;
+}
+
+
+/* video  */
+
+#video-player{
+    width: 100%;
+    /* margin-top: 140px; */
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 10px;
+    /* box-sizing: border-box; */
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.channel-info p{
+    color: gray;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.video-card{
+    width: 450px;
+    /* height: 300px; */
+    border-radius: 9px;
+    margin: 15px;
+    margin-left: 35px;
+    /* padding: 10px; */
+}
+.video-card img{
+    width: 450px;
+}

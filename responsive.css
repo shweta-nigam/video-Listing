@@ -1,0 +1,39 @@
+@media (max-width:450px) {
+   .vertical{
+    display: none;
+   }
+  .right-nav-items{
+    display: none;
+  }
+   .content-options {
+    margin: 15px;
+    overflow-x: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 50px; */
+
+}
+
+#search-area {
+    width: 270px;
+}
+.fa-search {
+    display: none;
+}
+.video-card img {
+    width: 260px;
+}
+.video-card {
+    width: 250px;
+    border-radius: 9px;
+    margin: 10px;
+}
+#video-player {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+}
