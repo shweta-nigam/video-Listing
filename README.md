@@ -10,7 +10,7 @@ This project is a **YouTube-like UI** built using **HTML, CSS, and JavaScript**.
 
 ## How project looks:
 ![Project Screenshot](screenshots/ss1.png)
-![Project Screenshot](screenshots/ss2.jpg)
+![Project Screenshot](screenshots/ss2.png)
 
 ## 📁 Folder Structure  
 📂 02_Assignment(video-listing) │-- 📄 index.html
